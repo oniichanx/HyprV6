@@ -203,6 +203,7 @@ console-mode 0
 <details>
   <summary><strong> How to make archlinux secure boot? </strong></summary>
 
+---
 - Step 1
 ```
 sudo pacman -S sbctl
@@ -223,7 +224,11 @@ sbctl sign -s /boot/vmlinuz-linux
 sbctl sign -s /boot/vmlinuz-linux-zen
 sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
 ```
-Done
+- Step 5
+```
+sudo sbctl verify
+```
+- Done
 
   </details>
 </details>
