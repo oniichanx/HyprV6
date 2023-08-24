@@ -233,6 +233,3 @@ Reboot
 - ### ([Wallpaper Set](https://github.com/oniichanx/neofetch/tree/main/wallpaper))
 </details>
 </details>
-
-
-# hyprv6.1
