@@ -124,7 +124,7 @@ xdg-settings set default-web-browser librewolf.desktop
 </details>
 
 <details>
-  <summary><strong> How to dual boot windows with archlinux? </strong></summary>
+  <summary><strong> How to dual boot windows with archlinux? (GRUB) </strong></summary>
   
 ---
 - Step 1
@@ -150,6 +150,46 @@ sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 - Step 5
 ```
 sudo grub-mkconfig -o /efi/grub/grub.cfg
+```
+- Done
+
+---
+  </details>
+</details>
+
+<details>
+  <summary><strong> How to dual boot windows with archlinux? (SYSTEMD-BOOT) </strong></summary>
+  
+---
+- Step 1 (note first efi partition block number)
+```
+sudo fdisk -l
+```
+- Step 2
+```
+sudo mkdir /mnt/windows
+```
+- Step 3
+```
+sudo mount /dev/(urwindowsefiblock) /mnt/windows
+```
+- Step 4
+```
+sudo cp -r /mnt/windows/EFI/Microsoft /boot/EFI
+```
+- or
+```
+sudo ls /boot/EFI
+
+```
+- Step 5 (above command to check if copied)
+```
+sudo nano /boot/efi/loader/loader.conf
+```
+- Step 6 add these two lines
+```
+timeout 5
+console-mode max
 ```
 - Done
 
