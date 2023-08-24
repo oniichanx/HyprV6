@@ -124,6 +124,40 @@ xdg-settings set default-web-browser librewolf.desktop
 </details>
 
 <details>
+  <summary><strong> How to make archlinux secure boot? (SYSTEMD-BOOT Only | GRUB not working)</strong></summary>
+
+---
+- Step 1
+```
+sudo pacman -S sbctl
+```
+- Step 2
+```
+sbctl create-keys
+```
+- Step 3
+```
+sbctl enroll-keys -m
+```
+- Step 4
+```
+sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFi
+sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
+sbctl sign -s /boot/vmlinuz-linux
+sbctl sign -s /boot/vmlinuz-linux-zen
+sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
+```
+- Step 5
+```
+sudo sbctl verify
+```
+- Done
+
+---
+  </details>
+</details>
+
+<details>
   <summary><strong> How to dual boot windows with archlinux? (GRUB) </strong></summary>
   
 ---
@@ -197,39 +231,6 @@ console-mode 0
 - Done
 
 ---
-  </details>
-</details>
-
-<details>
-  <summary><strong> How to make archlinux secure boot? (SYSTEMD-BOOT Only | GRUB not working)</strong></summary>
-
----
-- Step 1
-```
-sudo pacman -S sbctl
-```
-- Step 2
-```
-sbctl create-keys
-```
-- Step 3
-```
-sbctl enroll-keys -m
-```
-- Step 4
-```
-sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFi
-sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
-sbctl sign -s /boot/vmlinuz-linux
-sbctl sign -s /boot/vmlinuz-linux-zen
-sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
-```
-- Step 5
-```
-sudo sbctl verify
-```
-- Done
-
   </details>
 </details>
 
