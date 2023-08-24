@@ -201,7 +201,7 @@ console-mode 0
 </details>
 
 <details>
-  <summary><strong> How to make archlinux secure boot? </strong></summary>
+  <summary><strong> How to make archlinux secure boot? (SYSTEMD-BOOT Only GRUB not working)</strong></summary>
 
 ---
 - Step 1
