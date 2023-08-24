@@ -42,7 +42,7 @@ nvidia_stage=(
 install_stage=(
     kitty 
     mako 
-    waybar-git
+    waybar
     swww 
     swaylock-effects 
     wofi 
