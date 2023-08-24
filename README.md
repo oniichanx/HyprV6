@@ -201,6 +201,34 @@ console-mode 0
 </details>
 
 <details>
+  <summary><strong> How to make archlinux secure boot? </strong></summary>
+
+- Step 1
+```
+sudo pacman -S sbctl
+```
+- Step 2
+```
+sbctl create-keys
+```
+- Step 3
+```
+sbctl enroll-keys -m
+```
+- Step 4
+```
+sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFi
+sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
+sbctl sign -s /boot/vmlinuz-linux
+sbctl sign -s /boot/vmlinuz-linux-zen
+sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
+```
+Done
+
+  </details>
+</details>
+
+<details>
   <summary><strong> How to make firefox glowie? </strong></summary>
 
 (requires [hnhx config](https://github.com/hnhx/user.js) or [My config](https://github.com/oniichanx/neofetch/tree/main/firefox))
