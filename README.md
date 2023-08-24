@@ -133,19 +133,19 @@ sudo pacman -S sbctl
 ```
 - Step 2
 ```
-sbctl create-keys
+sudo sbctl create-keys
 ```
 - Step 3
 ```
-sbctl enroll-keys -m
+sudo sbctl enroll-keys -m
 ```
 - Step 4
 ```
-sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFi
-sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
-sbctl sign -s /boot/vmlinuz-linux
-sbctl sign -s /boot/vmlinuz-linux-zen
-sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
+sudo sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFi
+sudo sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
+sudo sbctl sign -s /boot/vmlinuz-linux
+sudo sbctl sign -s /boot/vmlinuz-linux-zen
+sudo sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
 ```
 - Step 5
 ```
