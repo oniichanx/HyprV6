@@ -40,11 +40,11 @@ Or you can use the attached script | "set-hypr" | to install everything for you.
   
 - Step 1
 ```
-  git clone https://github.com/oniichanx/hyprv5.git
+  git clone https://github.com/oniichanx/hyprv6.git
 ```
 - Step 2
 ```
-  cd hyprv5
+  cd hyprv6
 ```
 - Step 3
 ```
@@ -177,15 +177,15 @@ sudo mount /dev/(urwindowsefiblock) /mnt/windows
 ```
 sudo cp -r /mnt/windows/EFI/Microsoft /boot/EFI
 ```
-- or
+- Step 5 For Check EFI Microsoft is in there (above command to check if copied)
 ```
 sudo ls /boot/EFI
 ```
-- Step 5 (above command to check if copied)
+- Step 6
 ```
 sudo nano /boot/efi/loader/loader.conf
 ```
-- Step 6 add these two lines
+- Step 7 add these two lines
 ```
 timeout 5
 console-mode max
