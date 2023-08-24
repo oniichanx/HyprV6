@@ -185,10 +185,14 @@ sudo ls /boot/EFI
 ```
 sudo nano /boot/efi/loader/loader.conf
 ```
+- Or
+```
+sudo nano /boot/loader/loader.conf
+```
 - Step 7 add these two lines
 ```
 timeout 5
-console-mode max
+console-mode 0
 ```
 - Done
 
