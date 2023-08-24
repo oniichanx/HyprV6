@@ -30,7 +30,6 @@ prep_stage=(
 
 #software for nvidia GPU only
 nvidia_stage=(
-    linux-headers
     linux-zen
     linux-zen-headers
     nvidia-dkms 
@@ -43,7 +42,7 @@ nvidia_stage=(
 install_stage=(
     kitty 
     mako 
-    waybar
+    waybar-git
     swww 
     swaylock-effects 
     wofi 
