@@ -180,7 +180,6 @@ sudo cp -r /mnt/windows/EFI/Microsoft /boot/EFI
 - or
 ```
 sudo ls /boot/EFI
-
 ```
 - Step 5 (above command to check if copied)
 ```
