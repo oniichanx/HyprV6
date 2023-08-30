@@ -300,6 +300,11 @@ Reboot
 `waypaper` will run GUI application.
 
 ---
+- #### if you want macos theme
+```
+yay -S mojave-gtk-theme-git apple_cursor
+```
+---
 
   </details>
 </details>
