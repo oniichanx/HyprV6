@@ -34,7 +34,7 @@ Or you can use the attached script | "set-hypr" | to install everything for you.
 ---
 - #### | set-hypr | for hyprland aur version it slow for get new update but perfect to using daily
 - #### For people using systemd-boot you can do this adding `nvidia_drm.modeset=1` to the end of `/boot/loader/entries/arch.conf`.
-- #### For people update to hyprland-0.29.1 juse add this line `WLR_RENDERER_ALLOW_SOFTWARE=1` to `/etc/environment`
+- #### For people update to hyprland-0.29.1 just add this line `WLR_RENDERER_ALLOW_SOFTWARE=1` to `/etc/environment`
 ---
 
 <details>
