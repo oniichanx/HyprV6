@@ -33,6 +33,7 @@ noto-fonts-emoji lxappearance xfce4-settings sddm-git sddm-sugar-candy-git
 Or you can use the attached script | "set-hypr" | to install everything for you.
 ---
 - #### | set-hypr | for hyprland aur version it slow for get new update but perfect to using daily
+- #### For people using systemd-boot you can do this adding nvidia_drm.modeset=1 to the end of /boot/loader/entries/arch.conf.
 ---
 
 <details>
