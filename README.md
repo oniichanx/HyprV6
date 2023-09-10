@@ -1,4 +1,4 @@
-# HyprV6 For TESTING Version 0.28.0
+# HyprV6 For TESTING Version 0.29.1
 This is V6 of the Hyprland-git install script
 
 It contains a collection of dot config files for hyprland with a simple install script.
@@ -315,5 +315,12 @@ yay -S mojave-gtk-theme-git apple_cursor
   <summary><strong> You do wanna my wallpaper set? </strong></summary>
   
 - ### ([Wallpaper Set](https://github.com/oniichanx/neofetch/tree/main/wallpaper))
+</details>
+</details>
+
+<details>
+  <summary><strong> You do wanna my wallpaper set? </strong></summary>
+  
+- ### ([Wallpaper Set](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
 </details>
 </details>
