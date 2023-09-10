@@ -243,7 +243,9 @@ console-mode 0
   <summary><strong> How to make firefox glowie? </strong></summary>
 
 ---
+
 (requires [hnhx config](https://github.com/hnhx/user.js) or [My config](https://github.com/oniichanx/neofetch/tree/main/firefox))
+
 ---
 
   </details>
