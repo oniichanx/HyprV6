@@ -39,7 +39,8 @@ Or you can use the attached script | "set-hypr" | to install everything for you.
 
 <details>
   <summary><strong> How to use attached script? </strong></summary>
-  
+
+---
 - Step 1
 ```
   git clone https://github.com/oniichanx/hyprv6.git
@@ -322,7 +323,7 @@ sudo pacman -S gufw xorg-xhost
 
 - ### ([gufw issues fix](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
 
-sudo nano /usr/bin/gufw
+`sudo nano /usr/bin/gufw`
 ```
 #!/bin/bash
 Main() {
@@ -336,7 +337,7 @@ Main() {
 Main "$@"
 ```
 
-sud nano /usr/bin/gufw-pkexec
+`sudo nano /usr/bin/gufw-pkexec`
 ```
 #!/bin/bash
 LOCATIONS=`ls -ld /usr/lib/python*/site-packages/gufw/gufw.py | awk '{print $NF}'` # from source
