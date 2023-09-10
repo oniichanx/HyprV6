@@ -314,6 +314,7 @@ yay -S mojave-gtk-theme-git apple_cursor
 <details>
   <summary><strong> You do wanna firewall? </strong></summary>
 
+---
 - #### Install Gufw & xorg-xhost
 ```
 sudo pacman -S gufw xorg-xhost
