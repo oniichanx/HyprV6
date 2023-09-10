@@ -320,6 +320,8 @@ sudo pacman -S gufw xorg-xhost
 ```
 
 - ### ([gufw issues fix](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
+---
+
 </details>
 </details>
 
@@ -327,17 +329,5 @@ sudo pacman -S gufw xorg-xhost
   <summary><strong> You do wanna my wallpaper set? </strong></summary>
   
 - ### ([Wallpaper Set](https://github.com/oniichanx/neofetch/tree/main/wallpaper))
-</details>
-</details>
-
-<details>
-  <summary><strong> You do wanna firewall? </strong></summary>
-
-- #### Install Gufw & xorg-xhost
-```
-sudo pacman -S gufw xorg-xhost
-```
-
-- ### ([gufw issues fix](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
 </details>
 </details>
