@@ -319,8 +319,14 @@ yay -S mojave-gtk-theme-git apple_cursor
 </details>
 
 <details>
-  <summary><strong> You do wanna my wallpaper set? </strong></summary>
-  
-- ### ([Wallpaper Set](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
+  <summary><strong> You do wanna firewall? </strong></summary>
+
+```
+sudo pacman -S gufw
+```
+```
+sudo pacman -S xorg-xhost
+```
+- ### ([gufw issues fix](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
 </details>
 </details>
