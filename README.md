@@ -321,6 +321,34 @@ sudo pacman -S gufw xorg-xhost
 ```
 
 - ### ([gufw issues fix](https://forum.endeavouros.com/t/gufw-problems-and-solution/10666))
+
+sudo nano /usr/bin/gufw
+```
+#!/bin/bash
+Main() {
+    local whoami="$(whoami)"
+    if [ "$(loginctl show-session "$(loginctl|grep $whoami|sort -n|tail -n 1 |awk '{print $1}')" -p Type)" = "Type=wayland" ]
+    then
+        xhost +si:localuser:root
+    fi
+    pkexec gufw-pkexec $whoami
+}
+Main "$@"
+```
+
+sud nano /usr/bin/gufw-pkexec
+```
+#!/bin/bash
+LOCATIONS=`ls -ld /usr/lib/python*/site-packages/gufw/gufw.py | awk '{print $NF}'` # from source
+LOCATIONS=( "${LOCATIONS[@]}" "/usr/share/gufw/gufw/gufw.py" )                    # deb package
+
+for ((i = 0; i < ${#LOCATIONS[@]}; i++))
+do
+    if [[ -e "${LOCATIONS[${i}]}" ]]; then
+        python3 ${LOCATIONS[${i}]} $1
+    fi
+done
+```
 ---
 
 </details>
