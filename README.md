@@ -253,7 +253,8 @@ console-mode 0
 
 <details>
   <summary><strong> How to make hyprland gaming? </strong></summary>
-  
+
+---
 - #### Install steam
 ```
 sudo pacman -S steam
