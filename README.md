@@ -362,10 +362,9 @@ done
 ```
 nano /etc/default/ufw
 
-and
+and do this
 
 first one IPV6=yes to IPV6=no
-
 ```
 
 `My recommended Rules`
