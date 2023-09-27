@@ -358,6 +358,16 @@ do
 done
 ```
 
+`To block IPV6 By Default`
+```
+nano /etc/default/ufw
+
+and
+
+first one IPV6=yes to IPV6=no
+
+```
+
 `My recommended Rules`
 ```
 sudo ufw limit SSH
