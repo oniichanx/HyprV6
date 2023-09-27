@@ -357,6 +357,8 @@ do
     fi
 done
 ```
+
+`My recommended Rules`
 ```
 sudo ufw limit SSH
 sudo ufw limit 22/tcp
