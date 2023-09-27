@@ -360,7 +360,7 @@ done
 
 `To block IPV6 By Default`
 ```
-nano /etc/default/ufw
+sudo nano /etc/default/ufw
 
 and do this
 
