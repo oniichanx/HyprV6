@@ -46,7 +46,8 @@ install_stage=(
     swww 
     swaylock-effects 
     wofi 
-    imagemagick 
+    imagemagick
+    bibata-cursor-theme-bin
     wlogout 
     xdg-desktop-portal-hyprland 
     swappy 
