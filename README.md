@@ -277,7 +277,7 @@ sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
 ---
 - #### if you want firefox theme
 ```
-https://github.com/datguypiko/Firefox-Mod-Blur
+(requires [firefox safari theme](https://github.com/datguypiko/Firefox-Mod-Blur))
 ```
 ---
 - #### if you want play game on windows (requires [StartWine](https://github.com/RusNor/StartWine-Launcher))
