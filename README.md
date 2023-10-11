@@ -275,6 +275,11 @@ sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-setti
 sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
 ```
 ---
+- #### if you want firefox theme
+```
+https://github.com/datguypiko/Firefox-Mod-Blur
+```
+---
 - #### if you want play game on windows (requires [StartWine](https://github.com/RusNor/StartWine-Launcher))
 ```
 curl -sLo /dev/null -w '%{url_effective}' https://github.com/RusNor/StartWine-Launcher/releases/latest
