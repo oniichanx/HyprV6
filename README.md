@@ -248,10 +248,9 @@ console-mode 0
 
 ---
 
----
 - #### if you want firefox theme
 
-(requires [firefox safari theme](https://github.com/datguypiko/Firefox-Mod-Blur))
+(requires [firefox look like safari theme](https://github.com/datguypiko/Firefox-Mod-Blur))
 
 ---
 
@@ -280,11 +279,6 @@ sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-setti
 - #### if you want play minecraft
 ```
 sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
-```
----
-- #### if you want firefox theme
-```
-(requires [firefox safari theme](https://github.com/datguypiko/Firefox-Mod-Blur))
 ```
 ---
 - #### if you want play game on windows (requires [StartWine](https://github.com/RusNor/StartWine-Launcher))
