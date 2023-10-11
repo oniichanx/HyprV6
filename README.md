@@ -248,6 +248,13 @@ console-mode 0
 
 ---
 
+---
+- #### if you want firefox theme
+
+(requires [firefox safari theme](https://github.com/datguypiko/Firefox-Mod-Blur))
+
+---
+
   </details>
 </details>
 
