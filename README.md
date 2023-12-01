@@ -1,4 +1,4 @@
-# HyprV6 For TESTING Version 0.29.1
+# HyprV6 For TESTING Version 0.33.2
 This is V6 of the Hyprland-git install script
 
 It contains a collection of dot config files for hyprland with a simple install script.
