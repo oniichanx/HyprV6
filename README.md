@@ -21,7 +21,7 @@ And you're ready to go!
 ### Manual Installation
 If you want to do manual installation, here it is.
 
-NOTES: You need to install yay! I don't know if this project will have an option where you can choose yay or yay, yay will be the default now.
+NOTES: You need to install yay! I don't know if this project will have an option where you can choose yay or paru, yay will be the default now.
 
 #### NVIDIA: Do this if you have a nvidia card.
 Run this command:
