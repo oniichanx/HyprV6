@@ -21,13 +21,13 @@ And you're ready to go!
 ### Manual Installation
 If you want to do manual installation, here it is.
 
-NOTES: You need to install Paru! I don't know if this project will have an option where you can choose yay or paru, paru will be the default now.
+NOTES: You need to install yay! I don't know if this project will have an option where you can choose yay or yay, yay will be the default now.
 
 #### NVIDIA: Do this if you have a nvidia card.
 Run this command:
 
 ```
-paru -Sy linux-headers linux-zen linux-zen-headers nvidia-dkms qt5-wayland qt5ct libva libva-nvidia-driver-git
+yay -Sy linux-headers linux-zen linux-zen-headers nvidia-dkms qt5-wayland qt5ct libva libva-nvidia-driver-git
 ```
 
 Write this in /etc/mkinitcpio.conf:
@@ -64,7 +64,7 @@ Now reboot your system!
 Run this command:
 
 ```
-paru -Sy hyprland kitty jq mako waybar-hyprland swww swaylock-effects \
+yay -Sy hyprland kitty jq mako waybar-hyprland swww swaylock-effects \
 wofi wlogout xdg-desktop-portal-hyprland swappy grim slurp thunar \
 polkit-gnome python-requests pamixer pavucontrol brightnessctl bluez \
 bluez-utils blueman network-manager-applet gvfs thunar-archive-plugin \
