@@ -7,25 +7,25 @@
 # This is a quick and dirty script there are some error checking
 # IMPORTANT - This script is meant to run on a clean fresh Arch install on physical hardware
 
-# Define the software that would be inbstalled 
+# Define the software that would be inbstalled
 #Need some prep work
 prep_stage=(
-    qt5-wayland 
-    qt5ct
-    qt6-wayland 
-    qt6ct
-    qt5-svg
-    qt5-quickcontrols2
-    qt5-graphicaleffects
-    gtk3 
-    polkit-gnome 
-    pipewire 
-    wireplumber 
-    jq 
-    wl-clipboard 
-    cliphist 
-    python-requests 
-    pacman-contrib
+	qt5-wayland
+	qt5ct
+	qt6-wayland
+	qt6ct
+	qt5-svg
+	qt5-quickcontrols2
+	qt5-graphicaleffects
+	gtk3
+	polkit-gnome
+	pipewire
+	wireplumber
+	jq
+	wl-clipboard
+	cliphist
+	python-requests
+	pacman-contrib
 )
 
 #software for nvidia GPU only
