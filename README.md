@@ -323,11 +323,8 @@ sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-setti
 sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
 ```
 - #### If you using nvidia-driver 545 Need to downgrade
-- yay -S downgrade
+- ``` yay -S downgrade ```
 - sudo downgrade nvidia-dkms nvidia nvidia-utils lib32-nvidia-utils
-```
-sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
-```
 ---
 - #### if you want play game on windows (requires [StartWine](https://github.com/RusNor/StartWine-Launcher))
 ```
