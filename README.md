@@ -322,7 +322,7 @@ sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-setti
 ```
 sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
 ```
-- #### if you using nvidia-driver 545.xxx Need to downgrade to 535.113
+- #### if you using nvidia-driver 545.xxx Need to downgrade to 535.113 (Flickering fix)
 - ``` yay -S downgrade ```
 - ``` sudo downgrade nvidia-dkms nvidia nvidia-utils lib32-nvidia-utils ```
 ---
