@@ -51,7 +51,7 @@ set_current_background() {
     get_ver
     sleep 0.5
     
-    if [[ ! -z "$SET_BG" ]]; then
+    if [[ -z "$SET_BG" ]]; then # if background is not set
         #set the current background
         if [[ $THEMEIS == "dark.css" ]]; then
             swww img ~/.config/HyprV/backgrounds/$VER'-background-dark.jpg'
