@@ -300,13 +300,15 @@ console-mode 0
 </details>
 
 <details>
-  <summary><strong> How to make Archlinux Silent boot? </strong></summary>
+  <summary><strong> How to make Archlinux Silent boot(Unified Kernel)? </strong></summary>
+
+---
 
 ```
 nano /etc/kernel/cmdline
 ```
 ```
-quiet loglevel=3 systemd.show_status=auto rd.udev.log_level=3
+quiet fsck.mode=skip loglevel=3 systemd.show_status=auto rd.udev.log_level=3
 ```
 
 ---
