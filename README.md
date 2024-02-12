@@ -300,6 +300,25 @@ console-mode 0
 </details>
 
 <details>
+  <summary><strong> How to make Archlinux Silent boot? </strong></summary>
+
+nano /etc/kernel/cmdline
+---
+
+quiet loglevel=3 systemd.show_status=auto rd.udev.log_level=3
+
+---
+
+- #### if you want firefox theme
+
+(requires [firefox look like safari theme](https://github.com/datguypiko/Firefox-Mod-Blur))
+
+---
+
+  </details>
+</details>
+
+<details>
   <summary><strong> How to make hyprland gaming? </strong></summary>
 
 ---
