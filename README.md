@@ -345,7 +345,7 @@ sudo pacman -S --needed --noconfirm cava vscodium-bin prismlauncher-qt5-bin
 - #### if you using nvidia-driver 545.xxx Need to downgrade to 535.113 (Flickering fix)
 - ``` yay -S downgrade ```
 - ``` sudo downgrade nvidia-dkms nvidia nvidia-utils lib32-nvidia-utils ```
-- #### if you using nvidia-driver 545.xxx Need to downgrade another way for easy
+- #### if you using nvidia-driver 545.xxx Need to downgrade to 535.113 (another way for easy)
 - ``` git clone https://github.com/Frogging-Family/nvidia-all.git ```
 - ``` cd nvidia-all ```
 - ``` makepkg -si ```
