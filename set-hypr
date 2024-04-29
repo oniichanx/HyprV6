@@ -358,17 +358,32 @@ if [[ $STAR == "Y" || $STAR == "y" ]]; then
 	cp Extras/starship.toml ~/.config/
 fi
 
-### Set Default Browser to Librewolf ###
-read -rep $'[\e[1;33mACTION\e[0m] - Would you like set default browser to librewolf? (y,n) ' Librewolf
-if [[ $Librewolf == "Y" || $Librewolf == "y" ]]; then
-	# Set default browser to librewolf
-	echo -e "$CNT - Update the Browser..."
-	echo -e "$CNT - Updating Done.."
-	xdg-settings set default-web-browser librewolf.desktop
-    else
-        echo -e "$CNT - Default Browser is firefox..."
+### Set Default Browser ###
+echo -e "$CAC - Choose a default browser:"
+echo -e "1. Librewolf"
+echo -e "2. Firefox"
+echo -e "3. Brave"
+
+read -p "Enter your choice (1, 2, or 3): " choice
+
+case $choice in
+    1)
+        echo -e "$CNT - Setting default browser to Librewolf..."
+        xdg-settings set default-web-browser librewolf.desktop
+        ;;
+    2)
+        echo -e "$CNT - Setting default browser to Firefox..."
         xdg-settings set default-web-browser firefox.desktop
-fi
+        ;;
+    3)
+        echo -e "$CNT - Setting default browser to Brave..."
+        xdg-settings set default-web-browser brave.desktop
+        ;;
+    *)
+        echo -e "$CER - Invalid choice. Defaulting to Firefox..."
+        xdg-settings set default-web-browser firefox.desktop
+        ;;
+esac
 
 ### Install software for Asus ROG laptops ###
 read -rep $'[\e[1;33mACTION\e[0m] - For ASUS ROG Laptops - Would you like to install Asus ROG software support? (y,n) ' ROG
