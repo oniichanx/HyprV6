@@ -50,6 +50,7 @@ install_stage=(
 	bibata-cursor-theme-bin
 	wlogout
 	xdg-desktop-portal-hyprland
+	hyprwayland-scanner
 	swappy
 	grim
 	slurp
