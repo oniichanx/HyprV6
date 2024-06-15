@@ -50,7 +50,6 @@ install_stage=(
 	bibata-cursor-theme-bin
 	wlogout
 	xdg-desktop-portal-hyprland
-	hyprwayland-scanner
 	swappy
 	grim
 	slurp
@@ -249,7 +248,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
 
 	# Install the correct hyprland version
 	echo -e "$CNT - Installing Hyprland, this may take a while..."
-	install_software hyprland
+	install_software hyprland-git
 
 	# Stage 1 - main components
 	echo -e "$CNT - Installing main components, this may take a while..."
