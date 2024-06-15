@@ -167,6 +167,12 @@ sudo pacman -S imagemagick
 xdg-settings set default-web-browser librewolf.desktop
 ```
 ---
+- #### Hwo to disable yay -debug
+```
+nano /etc/makepkg.conf
+```
+- and just put ! in font debug to look like this !debug
+---
   </details>
 </details>
 
