@@ -171,7 +171,7 @@ xdg-settings set default-web-browser librewolf.desktop
 ```
 nano /etc/makepkg.conf
 ```
-- and just put ! in font debug to look like this !debug
+- and just put `!` in font debug to look like this `!debug`
 ---
   </details>
 </details>
