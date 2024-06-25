@@ -459,7 +459,7 @@ sudo ufw default allow outgoing
 sudo ufw enable
 ```
 
-`if you can't you lanucher gufw but Segmentation fault (core dumped) or someting right it do`
+`if you can't you lanucher gufw but Segmentation fault (core dumped) or someting right this`
 
 Type the following command in a terminal:
 
@@ -478,7 +478,7 @@ it line for Revoke Access for root
 xhost -si:localuser:root
 ```
 
-you can Verify Default Settings by
+you can Verify Default Settings by this command
 
 ```
 xhost
