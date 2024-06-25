@@ -472,6 +472,18 @@ If it returns Wayland, type:
 xhost si:localuser:root
 ```
 
+it line for Revoke Access for root
+
+```
+xhost -si:localuser:root
+```
+
+you can Verify Default Settings by
+
+```
+xhost
+``` 
+
 ---
 
 </details>
