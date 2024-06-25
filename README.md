@@ -458,6 +458,20 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 ```
+
+`if you can't you lanucher gufw but Segmentation fault (core dumped) or someting right it do`
+
+Type the following command in a terminal:
+
+```
+echo $XDG_SESSION_TYPE
+```
+If it returns Wayland, type:
+
+```
+xhost si:localuser:root
+```
+
 ---
 
 </details>
