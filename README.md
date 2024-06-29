@@ -485,7 +485,7 @@ xhost
 ```
 ---
 
-If that doesn't work, try this line. This line doesn't need to be changed: `/usr/bin/gufw-pkexec` 
+If that doesn't work, try this line. This line doesn't need to be changed: `/usr/bin/gufw-pkexec`
 Let it remain as default.
 
 `sudo nano /usr/bin/gufw`
