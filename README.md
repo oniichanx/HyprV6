@@ -482,7 +482,37 @@ you can Verify Default Settings by this command
 
 ```
 xhost
-``` 
+```
+
+if that not working try this line
+this line don't need to change `/usr/bin/gufw-pkexec`
+`sudo nano /usr/bin/gufw`
+
+```
+#!/bin/bash
+
+Main() {
+    local whoami="$(whoami)"
+    local session_id=$(loginctl list-sessions "$whoami" | sort -n | tail -n 1 | awk '{print $1}')
+    local session_type=$(loginctl show-session "$session_id" -p Type --value)
+
+    if [ "$session_type" = "wayland" ]; then
+        echo "Wayland session detected. Using alternative approach for permissions."
+        # Modify this section based on specific Wayland permissions mechanisms
+        # Example: Consider using PolicyKit or custom Wayland-specific rules
+        pkexec gufw-pkexec $whoami
+    else
+        # For non-Wayland sessions (e.g., X11), use xhost to allow root access
+        xhost +si:localuser:root
+
+        # Run gufw with pkexec to launch with elevated privileges
+        pkexec gufw-pkexec $whoami
+    fi
+}
+
+Main "$@"
+
+```
 
 ---
 
