@@ -458,7 +458,7 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 ```
-
+---
 `if you can't you lanucher gufw but Segmentation fault (core dumped) or someting right this`
 
 Type the following command in a terminal:
@@ -483,6 +483,7 @@ you can Verify Default Settings by this command
 ```
 xhost
 ```
+---
 
 if that not working try this line
 this line don't need to change `/usr/bin/gufw-pkexec`
