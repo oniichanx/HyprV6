@@ -486,6 +486,7 @@ xhost
 
 if that not working try this line
 this line don't need to change `/usr/bin/gufw-pkexec`
+
 `sudo nano /usr/bin/gufw`
 
 ```
