@@ -528,6 +528,8 @@ Main "$@"
 
 ```
 
+---
+
 - ### ([gufw not launching - add an "s" to the policy](https://unix.stackexchange.com/questions/396806/gufw-returns-a-segmentation-fault-in-line-13))
   
 `sudo nano /usr/share/polkit-1/actions/com.ubuntu.pkexec.gufw.policy`
