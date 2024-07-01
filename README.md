@@ -451,6 +451,8 @@ c_user=$(whoami)
 pkexec gufw-pkexec $c_user
 ```
 
+---
+
 `To block IPV6 By Default`
 ```
 sudo nano /etc/default/ufw
