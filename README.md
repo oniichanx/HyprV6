@@ -528,6 +528,22 @@ Main "$@"
 
 ```
 
+- ### ([gufw not launching - add an "s" to the policy](https://unix.stackexchange.com/questions/396806/gufw-returns-a-segmentation-fault-in-line-13))
+  
+`sudo nano /usr/share/polkit-1/actions/com.ubuntu.pkexec.gufw.policy`
+
+change this line
+
+```
+<annotate key="org.freedesktop.policykit.exec.path">/usr/bin/gufw-pkexec</annotate>
+```
+
+to this one
+
+```
+<annotate key="org.freedesktop.policykit.exec.path">/usr/sbin/gufw-pkexec</annotate>
+```
+
 ---
 
 </details>
