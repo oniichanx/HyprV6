@@ -439,20 +439,16 @@ do
 done
 ```
 
-- ### ([gufw issues fix](https://unix.stackexchange.com/questions/396806/gufw-returns-a-segmentation-fault-in-line-13))
+- ### ([gufw returns a segmentation fault in line 13 fix](https://unix.stackexchange.com/questions/396806/gufw-returns-a-segmentation-fault-in-line-13))
   
-`sudo nano /usr/bin/gufw`
+`sudo nano /usr/sbin/gufw`
 ```
 #!/bin/bash
-Main() {
-    local whoami="$(whoami)"
-    if [ "$(loginctl show-session "$(loginctl|grep $whoami|sort -n|tail -n 1 |awk '{print $1}')" -p Type)" = "Type=wayland" ]
-    then
-        xhost +si:localuser:root
-    fi
-    pkexec gufw-pkexec $whoami
-}
-Main "$@"
+if [ $(loginctl show-session $(loginctl|grep $(whoami)|sort -n|tail -n 1 |awk '{print $1}') -p Type) = "Type=wayland" ]; then
+    xhost +si:localuser:root
+fi
+c_user=$(whoami)
+pkexec gufw-pkexec $c_user
 ```
 
 `To block IPV6 By Default`
