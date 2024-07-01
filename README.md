@@ -439,6 +439,8 @@ do
 done
 ```
 
+---
+
 - ### ([gufw returns a segmentation fault in line 13 fix](https://unix.stackexchange.com/questions/396806/gufw-returns-a-segmentation-fault-in-line-13))
   
 `sudo nano /usr/sbin/gufw`
