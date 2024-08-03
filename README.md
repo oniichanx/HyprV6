@@ -324,7 +324,24 @@ sudo mkinitcpio -P
 
   </details>
 </details>
+<details>
+  <summary><strong> How to make Archlinux Silent boot(Unified Kernel)? </strong></summary>
 
+---
+
+```
+nano /etc/kernel/cmdline
+```
+```
+quiet fsck.mode=skip loglevel=3 systemd.show_status=auto rd.udev.log_level=3
+```
+```
+sudo mkinitcpio -P
+```
+
+---
+
+  </details>
 <details>
   <summary><strong> How to make hyprland gaming? </strong></summary>
 
