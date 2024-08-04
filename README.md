@@ -168,9 +168,9 @@ xdg-settings set default-web-browser librewolf.desktop
 ```
 ---
 - #### How to Single GPU Passthrough
-```
+
 ![Single GPU Passthrough](https://oniichanx.github.io/Windows-10-11-Single-GPU-Passthrough)
-```
+
 ---
 - #### How to disable yay -debug
 ```
