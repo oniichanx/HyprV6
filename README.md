@@ -167,9 +167,6 @@ sudo pacman -S imagemagick
 xdg-settings set default-web-browser librewolf.desktop
 ```
 ---
-- #### (requires [How to Single GPU Passthrough](https://oniichanx.github.io/Windows-10-11-Single-GPU-Passthrough/))
-
----
 - #### How to disable yay -debug
 ```
 nano /etc/makepkg.conf
@@ -584,3 +581,5 @@ to this one
 - ### ([Wallpaper Set](https://github.com/oniichanx/neofetch/tree/main/wallpaper))
 </details>
 </details>
+
+- #### ([How to Single GPU Passthrough](https://oniichanx.github.io/Windows-10-11-Single-GPU-Passthrough/))
