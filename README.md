@@ -585,6 +585,6 @@ to this one
 <details>
   <summary><strong> How to Single GPU Passthrough? </strong></summary>
   
-- #### ([How to Single GPU Passthrough](https://oniichanx.github.io/Windows-10-11-Single-GPU-Passthrough/))
+- #### ([Single GPU Passthrough Link](https://oniichanx.github.io/Windows-10-11-Single-GPU-Passthrough/))
 </details>
 </details>
