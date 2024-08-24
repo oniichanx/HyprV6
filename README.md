@@ -173,6 +173,11 @@ nano /etc/makepkg.conf
 ```
 - and just put `!` in font debug to look like this `!debug`
 ---
+- #### How to config muitdisplay easy way (requires [nwg-displays](https://github.com/nwg-piotr/nwg-displays)
+```
+yay -S nwg-displays
+```
+---
   </details>
 </details>
 
